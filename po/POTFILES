@@ -1,0 +1,7 @@
+src/Application.vala
+src/Main.vala
+src/Widgets/Headerbar.vala
+src/Widgets/Upower.vala
+src/Widgets/Window.vala
+data/org.rinzwind.batterystatus.desktop
+data/org.rinzwind.batterystatus.appdata.xml

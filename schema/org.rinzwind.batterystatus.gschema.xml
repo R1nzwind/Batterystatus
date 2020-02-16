@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.rinzwind.batterystatus" path="/org/rinzwind/batterystatus/">
+    <key name="xpos" type="i">
+      <default >1500</default>
+      <range min="50" max="2000"/>
+      <summary>Horizontal position</summary>
+      <description>
+        Horizontal position for the batterystatus (pixels).
+      </description>
+    </key>
+    <key name="ypos" type="i">
+      <default>300</default>
+      <range min="1" max="1000"/>
+      <summary>Vertical position</summary>
+      <description>
+        Vertical position for the batterystatus (pixels).
+      </description>
+    </key>
+    <key name="font-size" type="i">
+      <default>45</default>
+      <range min="10" max="100"/>
+      <summary>Default font size</summary>
+      <description>
+        The size of the font to be used (pixels).
+      </description>
+    </key>
+    <key name="foreground-color" type="s">
+      <default>"red"</default>
+      <summary>Default text color</summary>
+      <description>
+        The color of the text to be used (HTML hex (#FF0000) or color name ("red")).
+      </description>
+    </key>
+    <key name="timeout" type="i">
+      <default>10</default>
+      <range min="10" max="180"/>
+      <summary>Timeout</summary>
+      <description>
+        Time to wait before refreshing (seconds). Requires reloading batterystatus.
+      </description>
+    </key>
+    <key name="immovable" type="b">
+      <default >true</default>
+      <summary>Immovable</summary>
+      <description>
+      Lock the application to the desktop making it not moveable.
+      </description>
+    </key>
+    <key name="decoration" type="b">
+      <default >true</default>
+      <summary>Window decoration</summary>
+      <description>
+      Use the themes decoration. 
+      </description>
+    </key>
+    <key name="titlebar" type="b">
+      <default >true</default>
+      <summary>Show titlebar</summary>
+      <description>
+      Show titlebar. 
+      </description>
+    </key>
+  </schema>
+</schemalist>

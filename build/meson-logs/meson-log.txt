@@ -1,0 +1,41 @@
+Build started at 2020-02-15T22:45:40.830249
+Main binary: /usr/bin/python3
+Build Options: -Dprefix=/usr -Dbackend=ninja
+Python system: Linux
+The Meson build system
+Version: 0.53.0
+Source dir: /discworld/Projects/BatteryStatus
+Build dir: /discworld/Projects/BatteryStatus/build
+Build type: native build
+Project name: org.rinzwind.batterystatus
+Project version: 0.0.1
+C compiler for the build machine: cc (gcc 9.2.1 "cc (Ubuntu 9.2.1-28ubuntu1) 9.2.1 20200203")
+C linker for the build machine: cc GNU ld.bfd 2.34
+Vala compiler for the build machine: valac (valac 0.47.4)
+C compiler for the host machine: cc (gcc 9.2.1 "cc (Ubuntu 9.2.1-28ubuntu1) 9.2.1 20200203")
+C linker for the host machine: cc GNU ld.bfd 2.34
+Vala compiler for the host machine: valac (valac 0.47.4)
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Target machine cpu family: x86_64
+Target machine cpu: x86_64
+Dependency gtk+-3.0 found: YES 3.24.13 (cached)
+Program post_install.py found: YES (/usr/bin/python3 /discworld/Projects/BatteryStatus/post_install.py)
+Build targets in project: 4
+
+Found ninja-1.9.0 at /usr/bin/ninja
+Running compile:
+Working directory:  /discworld/Projects/BatteryStatus/build/meson-private/tmpuwt3immr
+Command line:  cc /discworld/Projects/BatteryStatus/build/meson-private/tmpuwt3immr/testfile.c -o /discworld/Projects/BatteryStatus/build/meson-private/tmpuwt3immr/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ install: /usr/lib/gcc/x86_64-linux-gnu/9/
+programs: =/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/bin/
+libraries: =/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/9/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/9/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+
+Compiler stderr:
+ 

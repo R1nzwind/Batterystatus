@@ -1,0 +1,110 @@
+# Spanish translations for org.rinzwind.batterystatus package.
+# Copyright (C) 2020 THE org.rinzwind.batterystatus'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the org.rinzwind.batterystatus package.
+# Automatically generated, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: org.rinzwind.batterystatus\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-15 22:52+0100\n"
+"PO-Revision-Date: 2020-02-15 22:52+0100\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/Widgets/Upower.vala:24 src/Widgets/Upower.vala:56
+msgid "Unknown"
+msgstr ""
+
+#: src/Widgets/Upower.vala:26 src/Widgets/Upower.vala:101
+msgid "Charging"
+msgstr ""
+
+#: src/Widgets/Upower.vala:28 src/Widgets/Upower.vala:60
+#: src/Widgets/Upower.vala:97
+msgid "Discharging"
+msgstr ""
+
+#: src/Widgets/Upower.vala:30 src/Widgets/Upower.vala:104
+msgid "Empty"
+msgstr ""
+
+#: src/Widgets/Upower.vala:32
+msgid "Charged"
+msgstr ""
+
+#: src/Widgets/Upower.vala:34
+msgid "Pending charge"
+msgstr ""
+
+#: src/Widgets/Upower.vala:36
+msgid "Pending discharge"
+msgstr ""
+
+#: src/Widgets/Upower.vala:58
+msgid "None"
+msgstr ""
+
+#: src/Widgets/Upower.vala:62 src/Widgets/Upower.vala:113
+msgid "Low"
+msgstr ""
+
+#: src/Widgets/Upower.vala:64 src/Widgets/Upower.vala:116
+msgid "Very low"
+msgstr ""
+
+#: src/Widgets/Upower.vala:66 src/Widgets/Upower.vala:119
+msgid "Critical"
+msgstr ""
+
+#: src/Widgets/Upower.vala:107
+msgid "Full"
+msgstr ""
+
+#: src/Widgets/Window.vala:136 data/org.rinzwind.batterystatus.desktop:3
+#: data/org.rinzwind.batterystatus.desktop:4
+#: data/org.rinzwind.batterystatus.appdata.xml:6
+msgid "Batterystatus"
+msgstr ""
+
+#: data/org.rinzwind.batterystatus.desktop:5
+msgid "Batterystatus on the desktop"
+msgstr ""
+
+#: data/org.rinzwind.batterystatus.desktop:8
+msgid "application-default-icon"
+msgstr ""
+
+#: data/org.rinzwind.batterystatus.desktop:11
+msgid "Batterystatus;;"
+msgstr ""
+
+#: data/org.rinzwind.batterystatus.appdata.xml:7
+msgid "Showing percentage and time of the battery on the desktop"
+msgstr ""
+
+#: data/org.rinzwind.batterystatus.appdata.xml:9
+msgid "- Horizontal and vertical positioning."
+msgstr ""
+
+#: data/org.rinzwind.batterystatus.appdata.xml:10
+msgid ""
+"- Optional decoration. Automatic positioning saving when with decoration."
+msgstr ""
+
+#: data/org.rinzwind.batterystatus.appdata.xml:11
+msgid "- Moveable or immovable."
+msgstr ""
+
+#: data/org.rinzwind.batterystatus.appdata.xml:12
+msgid "- Color and font selection."
+msgstr ""
+
+#: data/org.rinzwind.batterystatus.appdata.xml:13
+msgid "- Optional title."
+msgstr ""

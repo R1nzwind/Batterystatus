@@ -1,0 +1,38 @@
+[
+  {
+    "directory": "/discworld/Projects/BatteryStatus/build",
+    "command": "valac -C --debug --debug --pkg gtk+-3.0 --color=always --directory src/25a6634@@org.rinzwind.batterystatus@exe --basedir ../src ../src/Main.vala ../src/Application.vala ../src/Widgets/Window.vala ../src/Widgets/Upower.vala ../src/Widgets/Headerbar.vala",
+    "file": "../src/Main.vala",
+    "output": "src/25a6634@@org.rinzwind.batterystatus@exe/Main.c"
+  },
+  {
+    "directory": "/discworld/Projects/BatteryStatus/build",
+    "command": "cc -Isrc/25a6634@@org.rinzwind.batterystatus@exe -Isrc -I../src -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gtk-3.0 -I/usr/include/gio-unix-2.0 -I/usr/include/pango-1.0 -I/usr/include/fribidi -I/usr/include/harfbuzz -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -w -g '-DGETTEXT_PACKAGE=\"org.rinzwind.batterystatus\"' -pthread -MD -MQ 'src/25a6634@@org.rinzwind.batterystatus@exe/meson-generated_Main.c.o' -MF 'src/25a6634@@org.rinzwind.batterystatus@exe/meson-generated_Main.c.o.d' -o 'src/25a6634@@org.rinzwind.batterystatus@exe/meson-generated_Main.c.o' -c 'src/25a6634@@org.rinzwind.batterystatus@exe/Main.c'",
+    "file": "src/25a6634@@org.rinzwind.batterystatus@exe/Main.c",
+    "output": "src/25a6634@@org.rinzwind.batterystatus@exe/meson-generated_Main.c.o"
+  },
+  {
+    "directory": "/discworld/Projects/BatteryStatus/build",
+    "command": "cc -Isrc/25a6634@@org.rinzwind.batterystatus@exe -Isrc -I../src -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gtk-3.0 -I/usr/include/gio-unix-2.0 -I/usr/include/pango-1.0 -I/usr/include/fribidi -I/usr/include/harfbuzz -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -w -g '-DGETTEXT_PACKAGE=\"org.rinzwind.batterystatus\"' -pthread -MD -MQ 'src/25a6634@@org.rinzwind.batterystatus@exe/meson-generated_Application.c.o' -MF 'src/25a6634@@org.rinzwind.batterystatus@exe/meson-generated_Application.c.o.d' -o 'src/25a6634@@org.rinzwind.batterystatus@exe/meson-generated_Application.c.o' -c 'src/25a6634@@org.rinzwind.batterystatus@exe/Application.c'",
+    "file": "src/25a6634@@org.rinzwind.batterystatus@exe/Application.c",
+    "output": "src/25a6634@@org.rinzwind.batterystatus@exe/meson-generated_Application.c.o"
+  },
+  {
+    "directory": "/discworld/Projects/BatteryStatus/build",
+    "command": "cc -Isrc/25a6634@@org.rinzwind.batterystatus@exe -Isrc -I../src -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gtk-3.0 -I/usr/include/gio-unix-2.0 -I/usr/include/pango-1.0 -I/usr/include/fribidi -I/usr/include/harfbuzz -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -w -g '-DGETTEXT_PACKAGE=\"org.rinzwind.batterystatus\"' -pthread -MD -MQ 'src/25a6634@@org.rinzwind.batterystatus@exe/meson-generated_Widgets_Window.c.o' -MF 'src/25a6634@@org.rinzwind.batterystatus@exe/meson-generated_Widgets_Window.c.o.d' -o 'src/25a6634@@org.rinzwind.batterystatus@exe/meson-generated_Widgets_Window.c.o' -c 'src/25a6634@@org.rinzwind.batterystatus@exe/Widgets/Window.c'",
+    "file": "src/25a6634@@org.rinzwind.batterystatus@exe/Widgets/Window.c",
+    "output": "src/25a6634@@org.rinzwind.batterystatus@exe/meson-generated_Widgets_Window.c.o"
+  },
+  {
+    "directory": "/discworld/Projects/BatteryStatus/build",
+    "command": "cc -Isrc/25a6634@@org.rinzwind.batterystatus@exe -Isrc -I../src -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gtk-3.0 -I/usr/include/gio-unix-2.0 -I/usr/include/pango-1.0 -I/usr/include/fribidi -I/usr/include/harfbuzz -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -w -g '-DGETTEXT_PACKAGE=\"org.rinzwind.batterystatus\"' -pthread -MD -MQ 'src/25a6634@@org.rinzwind.batterystatus@exe/meson-generated_Widgets_Upower.c.o' -MF 'src/25a6634@@org.rinzwind.batterystatus@exe/meson-generated_Widgets_Upower.c.o.d' -o 'src/25a6634@@org.rinzwind.batterystatus@exe/meson-generated_Widgets_Upower.c.o' -c 'src/25a6634@@org.rinzwind.batterystatus@exe/Widgets/Upower.c'",
+    "file": "src/25a6634@@org.rinzwind.batterystatus@exe/Widgets/Upower.c",
+    "output": "src/25a6634@@org.rinzwind.batterystatus@exe/meson-generated_Widgets_Upower.c.o"
+  },
+  {
+    "directory": "/discworld/Projects/BatteryStatus/build",
+    "command": "cc -Isrc/25a6634@@org.rinzwind.batterystatus@exe -Isrc -I../src -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gtk-3.0 -I/usr/include/gio-unix-2.0 -I/usr/include/pango-1.0 -I/usr/include/fribidi -I/usr/include/harfbuzz -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -w -g '-DGETTEXT_PACKAGE=\"org.rinzwind.batterystatus\"' -pthread -MD -MQ 'src/25a6634@@org.rinzwind.batterystatus@exe/meson-generated_Widgets_Headerbar.c.o' -MF 'src/25a6634@@org.rinzwind.batterystatus@exe/meson-generated_Widgets_Headerbar.c.o.d' -o 'src/25a6634@@org.rinzwind.batterystatus@exe/meson-generated_Widgets_Headerbar.c.o' -c 'src/25a6634@@org.rinzwind.batterystatus@exe/Widgets/Headerbar.c'",
+    "file": "src/25a6634@@org.rinzwind.batterystatus@exe/Widgets/Headerbar.c",
+    "output": "src/25a6634@@org.rinzwind.batterystatus@exe/meson-generated_Widgets_Headerbar.c.o"
+  }
+]

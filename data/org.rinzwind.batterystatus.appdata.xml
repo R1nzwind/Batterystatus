@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2020 Rinzwind <w.damen@gmail.com> -->
+<component type="desktop">
+  <id>org.rinzwind.batterystatus</id>
+  <metadata_license>CC0</metadata_license>
+  <name>Batterystatus</name>
+  <summary>Showing percentage and time of the battery on the desktop</summary>
+  <description>
+    <p>- Horizontal and vertical positioning.</p>
+    <p>- Optional decoration. Automatic positioning saving when with decoration.</p>
+    <p>- Moveable or immovable.</p>
+    <p>- Color and font selection.</p>
+    <p>- Optional title.</p>
+  </description>
+</component>
