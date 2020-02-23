@@ -1,0 +1,11 @@
+Build started at 2020-02-16T10:18:25.179314
+Main binary: /usr/bin/python3
+Build Options: -Dbuildtype=debug -Dlayout=flat
+Python system: Linux
+The Meson build system
+Version: 0.53.0
+Source dir: /discworld/Projects/BatteryStatus2/src
+Build dir: /discworld/Projects/BatteryStatus2/src/build
+Build type: native build
+
+ERROR: First statement must be a call to project

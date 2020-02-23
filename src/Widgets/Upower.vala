@@ -21,19 +21,19 @@ namespace UPower {
         public string to_string() {
             switch(this) {
                 case UNKNOWN:
-                    return  (_("Unknown"));
+                    return  "Unknown"; // translation
                 case CHARGING:
-                    return (_("Charging"));
+                    return "Charging"; // translation
                 case DISCHARGING:
-                    return (_("Discharging"));
+                    return "Discharging"; // translation
                 case EMPTY:
-                    return (_("Empty"));
+                    return "Empty"; // translation
                 case CHARGED:
-                    return  (_("Charged"));
+                    return  "Charged"; // translation
                 case PENDING_CHARGE:
-                    return  (_("Pending charge"));
+                    return  "Pending charge"; // translation
                 case PENDING_DISCHARGE:
-                    return (_("Pending discharge"));
+                    return "Pending discharge"; // translation
                 default:
                     return "";
             }
@@ -53,17 +53,17 @@ namespace UPower {
             switch(this)
             {
                 case UNKNOWN:
-                    return (_("Unknown"));
+                    return "Unknown"; // translation
                 case NONE:
-                    return (_("None"));
+                    return "None"; // translation
                 case DISCHARGING:
-                    return (_("Discharging"));
+                    return "Discharging"; // translation
                 case LOW:
-                    return (_("Low"));
+                    return "Low"; // translation
                 case CRITICAL:
-                    return (_("Very low"));
+                    return "Very low"; // translation
                 case ACTION:
-                    return (_("Critical"));
+                    return "Critical"; // translation
                 default:
                     return "";
             }
@@ -94,29 +94,29 @@ namespace UPower {
             time = ("%01g:%02g").printf(full_h,full_m);
             switch (state){
                 case UPower.DeviceState.DISCHARGING:
-                    devicestate = (_("Discharging"));
+                    devicestate = "Discharging"; // translation
                     time = ("%01g:%02g").printf(empty_h,empty_m);
                     break;
                 case UPower.DeviceState.CHARGING:
-                    devicestate = (_("Charging"));
+                    devicestate = "Charging"; // translation
                     break;
                 case UPower.DeviceState.EMPTY:
-                    devicestate = (_("Empty"));
+                    devicestate = "Empty"; // translation
                     break;
                 case UPower.DeviceState.CHARGED:
-                    devicestate = (_("Full"));
+                    devicestate = "Full"; // translation
                     break;
             } 
             if ( state == 2 || state == 3){
                 switch (level){ 
                     case UPower.DeviceWarningLevel.LOW:
-                        devicewarninglevel = (_("Low"));
+                        devicewarninglevel = "Low";  // translation
                         break;
                     case UPower.DeviceWarningLevel.CRITICAL:
-                        devicewarninglevel = (_("Very low"));
+                        devicewarninglevel = "Very low"; // translation
                         break;
                     case UPower.DeviceWarningLevel.ACTION:
-                        devicewarninglevel = (_("Critical"));
+                        devicewarninglevel = "Critical"; // translation
                         break;
                 }
             }

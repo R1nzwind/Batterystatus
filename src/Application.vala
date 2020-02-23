@@ -12,6 +12,5 @@ public class Application : Gtk.Application {
 		
         window.set_keep_below (true);
 		add_window (window);
-
 	}
 }
